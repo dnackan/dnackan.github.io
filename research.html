@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Research</title>
+<meta name="author" content="Danny Nackan">
+<meta name="description" content="">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
+
+<script src="js/theme-toggle.js" defer></script>
+<script src="js/abstract-expand.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    CommonHTML: { linebreaks: { automatic:true }, matchFontHeight: false},
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+}); </script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML" type="text/javascript"></script>
+</head>
+
+<body id="research">
+
+<header>
+<div class="title">
+<h1>Danny Nackan</h1>
+<button id="theme-switch"><img id="btn" height="20px" src="images/light.png"></button> 
+</div>
+
+<nav>
+<ul>
+    <li class="index"><a href="index.html">Home</a></li>
+    <li class="research"><a href="research.html">Research</a></li>
+    <li class="teaching"><a href="teaching.html">Teaching</a></li>
+    <!-- <li class="links"><a href="links.html">Links</a></li> -->
+</ul>
+</nav>
+</header>
+
+<div id="main-content">
+
+
+<h2>Research interests</h2>
+
+<p><img class="figure" src="images/network.png" width="200" align="right"></p>
+
+<p>I am generally interested in differential, complex, and symplectic geometry. 
+More specifically, my research involves:
+<ul>
+    <li>moduli of Higgs bundles and flat connections</li>
+    <li>spectral networks and abelianization</li>
+    <li>Stokes phenomena</li>
+    <li>integrable systems</li>
+</ul>
+</p>
+
+<h2>Papers</h2>
+
+<p>
+<a class="expand" href="#/" onclick="showAll(2); return false;">[expand all]</a>
+<a class="expand" href="#/" onclick="hideAll(2); return false;">[collapse all]</a>
+</p>
+
+<h3>Preprints</h3>
+
+<ol start="2", reversed> 
+<li><i>Interpreting the Ooguri-Vafa symplectic form à la Atiyah-Bott</i>
+<a class="expand" id="expand2" href="#/" onclick="toggle_visibility(2); return false;">[+abstract]</a> <br>
+<div class="abstract" id="abstract2" style='display: none;'>
+<p> Gaiotto, Moore, and Neitzke predicted that the hyperkähler Ooguri-Vafa space $\mathcal{M}^{\mathrm{ov}}$ should provide a local model for Hitchin moduli spaces near the discriminant locus.
+To this end, Tulli identified $\mathcal{M}^{\mathrm{ov}}$ with a certain space of framed Higgs bundles with an irregular singularity.
+We extend this result by identifying the Ooguri-Vafa holomorphic symplectic form with a regularized version of the Atiyah-Bott form on the associated space of framed connections.
+We also prove the analogous statement for the corresponding semiflat forms.</p>
+</div>
+<a class=arxiv href="https://www.arxiv.org/abs/2409.19789">arXiv:2409.19789</a> 
+</li>
+</ol>
+
+
+<h3>Publications</h3>
+
+<ol reversed> 
+<li><i>Continuous limits of generalized pentagram maps</i>
+<a class="expand" id="expand1" href="#/" onclick="toggle_visibility('1'); return false;">[+abstract]</a> <br>
+<div class="abstract" id="abstract1" style='display: none;'>
+<p><img class="figure" src="images/pentagram.png" width="200" align="right"></p>
+<p> We provide a rigorous treatment of continuous limits for various generalizations of the pentagram map on polygons in $\mathbb{RP}^d$ by means of quantum calculus. Describing this limit in detail for the case of the short-diagonal pentagram map, we verify that this construction yields the $(2,d+1)$-KdV equation, and moreover, the Lax form of the pentagram map in the limit is proved to become the Lax representation of the corresponding KdV system. </p>
+<!-- More generally, we introduce the χ-pentagram map, a geometric construction defining curve evolutions by directly taking intersections of subspaces through specified points. We show that its different configurations yield certain other KdV equations and provide an argument towards disproving the conjecture that any KdV-type equation can be discretized through pentagram-type maps. -->
+</div>
+With Romain Speciel. <a href="https://doi.org/10.1016/j.geomphys.2021.104292">J. Geom. Phys. </a> <b>167</b> (2021). 
+<a class=arxiv href="https://arxiv.org/abs/2010.00723">arXiv:2010.00723</a> 
+</li>
+</ol>
+
+
+<!-- <h2>Talks</h2> -->
+
+
+</div>
+
+</body>
+</html>
