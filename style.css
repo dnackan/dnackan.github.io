@@ -151,6 +151,10 @@ nav a:hover {
 /*    border-width: 2px;*/
 }
 
+.news {
+    width:75%
+}
+
 .figure {
     border-radius: 5px;
 }
@@ -220,7 +224,7 @@ td {
         float: none;
         display: block;
         margin: 0 auto;
-        width: 50%;
+/*        width: 60%;*/
         height: auto;
     }
 
@@ -230,6 +234,10 @@ td {
 
     #main-content {
         top:100px; 
+    }
+
+    .news {
+        width: 100%;
     }
 }
 
